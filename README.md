@@ -53,3 +53,7 @@ minamiyuki.bot/
 ├── settings.json    # Bot token and config
 └── package.json     # Dependencies
 ```
+
+## Disclaimer!
+
+Ensure you read the documentation of [```discord```](https://docs.discord.com/developers/intro) for the documentation in setting up discord bots.
