@@ -1,66 +1,65 @@
-A discord bot using ```discord.js``` that I've made back in 2018 when I was a baby boy.
+# 🌸 minamiyuki.bot
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-3C873A?style=for-the-badge&logo=node.js&logoColor=white)
+![discord.js](https://img.shields.io/badge/discord.js-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
-# 🛠️ Under da hood.
-```
-# discord.js
-# Node.js
-# dotenv
-# Mongoose/MongoDB
-```
+A Discord bot built with `discord.js`. My first ever Discord bot, written back in 2018; featuring moderation and fun(?) commands.
 
-# 1. Clone the repository
+---
 
-Bash
-```
+## Stack
+
+| Tech | Purpose |
+|---|---|
+| [Node.js](https://nodejs.org) | Runtime |
+| [discord.js v11](https://discord.js.org) | Discord API wrapper |
+| [infinite-loop](https://www.npmjs.com/package/infinite-loop) | Loop utility |
+
+---
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/wetzuu/minamiyuki.bot.git
 cd minamiyuki.bot
 ```
-# 2. Install dependencies
 
-Bash
-```
+### 2. Install dependencies
+
+```bash
 npm install
 ```
-# 3. Configure your environment
-Create a .env file in the root directory and add your credentials:
 
-```
-TOKEN = YOUR_DISCORD_BOT_TOKEN
-MONGO_URI = YOUR_MONGODB_CONNECTION_STRING
-```
-# 4. Start the bot
+### 3. Configure your token
 
-Bash
-```
+Open `settings.json` and add your bot token.
+
+### 4. Run the bot
+
+```bash
 node .
-✨ Features
-Slash Commands: Fully compatible with modern Discord interactions.
-
-Database Ready: Persistent storage for user profiles or server configs.
-
-Organized Code: Modular command and event handlers for easy expansion.
-
-Lightweight: Minimal overhead for fast response times.
 ```
 
-# Project Structure
-├── 📂 node_modules/                   
+---
 
-├── 📂 package/           
+## Project Structure
 
-├── 📄 .env             
+```
+minamiyuki.bot/
+├── bot.js           # Main bot entry point
+├── settings.json    # Bot token and config
+└── package.json     # Dependencies
+```
 
-├── 📄 .gitignore       
+---
 
-├── 📄 index.js         
+## License
 
-├── 📄 settings.json
+This project is open-source under the ISC license.
 
-├── 📄 config.json
+---
 
-├── 📄 package-lock.json
-
-└── 📄 package.json     
-
-# 📄 License
-This project is open-source. Check the LICENSE file for more details.
+> *My first ever Discord bot, made in 2018.*
