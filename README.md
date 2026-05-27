@@ -53,13 +53,3 @@ minamiyuki.bot/
 ├── settings.json    # Bot token and config
 └── package.json     # Dependencies
 ```
-
----
-
-## License
-
-This project is open-source under the ISC license.
-
----
-
-> *My first ever Discord bot, made in 2018.*
